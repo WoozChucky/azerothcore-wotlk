@@ -68,7 +68,7 @@ variables_map GetConsoleArguments(int argc, char** argv, fs::path& configFile);
 /// Launch the auth server
 int main(int argc, char** argv)
 {
-    Acore::Impl::CurrentServerProcessHolder::_type = SERVER_PROCESS_AUTHSERVER;
+    Acore::Impl::CurrentServerProcessHolder::_type = ServerProcessTypes::SERVER_PROCESS_AUTHSERVER;
     signal(SIGABRT, &Acore::AbortHandler);
 
     // Command line parsing
