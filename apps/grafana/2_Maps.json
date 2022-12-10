@@ -11,7 +11,7 @@
         "type": "dashboard"
       },
       {
-        "datasource": "Influx",
+        "datasource": "InfluxDB",
         "enable": true,
         "iconColor": "#C0C6BE",
         "iconSize": 13,
@@ -36,7 +36,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Influx",
+      "datasource": "InfluxDB",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -206,7 +206,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Influx",
+      "datasource": "InfluxDB",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -633,7 +633,7 @@
           "text": "Acore",
           "value": "Acore"
         },
-        "datasource": "Influx",
+        "datasource": "InfluxDB",
         "definition": "",
         "hide": 0,
         "includeAll": false,

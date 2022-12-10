@@ -11,7 +11,7 @@
         "type": "dashboard"
       },
       {
-        "datasource": "Influx",
+        "datasource": "InfluxDB",
         "enable": true,
         "iconColor": "#C0C6BE",
         "iconSize": 13,
@@ -163,7 +163,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "Influx",
+      "datasource": "InfluxDB",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -290,7 +290,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "Influx",
+      "datasource": "InfluxDB",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -417,7 +417,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "Influx",
+      "datasource": "InfluxDB",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -611,7 +611,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Influx",
+      "datasource": "InfluxDB",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -905,7 +905,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Influx",
+      "datasource": "InfluxDB",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -1056,7 +1056,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Influx",
+      "datasource": "InfluxDB",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -1261,7 +1261,7 @@
           "text": "Acore",
           "value": "Acore"
         },
-        "datasource": "Influx",
+        "datasource": "InfluxDB",
         "definition": "",
         "hide": 0,
         "includeAll": false,

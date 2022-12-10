@@ -11,7 +11,7 @@
         "type": "dashboard"
       },
       {
-        "datasource": "Influx",
+        "datasource": "InfluxDB",
         "enable": true,
         "hide": false,
         "iconColor": "#c0c6be",
@@ -37,7 +37,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Influx",
+      "datasource": "InfluxDB",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -1631,7 +1631,7 @@
           "text": "Acore",
           "value": "Acore"
         },
-        "datasource": "Influx",
+        "datasource": "InfluxDB",
         "definition": "show tag values from events with key = realm",
         "description": null,
         "error": null,
