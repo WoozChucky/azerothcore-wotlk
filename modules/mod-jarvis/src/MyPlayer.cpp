@@ -15,9 +15,9 @@ public:
 
     void OnLogin(Player* player) override
     {
-        if (sConfigMgr->GetOption<bool>("MyModule.Enable", false))
+        if (sConfigMgr->GetOption<bool>("Module.Jarvis.Enabled", false))
         {
-            ChatHandler(player->GetSession()).SendSysMessage("Hello World from Skeleton-Module!");
+            player->Say("Hello World from Skeleton-Module!", LANG_UNIVERSAL, nullptr);
         }
     }
 };

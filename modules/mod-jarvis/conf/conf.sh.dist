@@ -8,9 +8,3 @@
 DB_WORLD_CUSTOM_PATHS+=(
 	"$MOD_SKELETON_ROOT/sql/world/base/"
 )
-
-## UPDATES
-
-DB_WORLD_UPDATES_PATHS+=(
-	"$MOD_SKELETON_ROOT/sql/world/updates/"
-)

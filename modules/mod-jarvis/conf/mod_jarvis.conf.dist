@@ -8,10 +8,10 @@
 # My module configuration
 ########################################
 #
-#    MyModule.Enable
+#    Module.Jarvis.Enabled
 #        Description: Enable my module and print "Hello World" message at server start
 #        Default:     0 - Disabled
 #                     1 - Enabled
 #
 
-MyModule.Enable = 0
+Module.Jarvis.Enabled = 0
