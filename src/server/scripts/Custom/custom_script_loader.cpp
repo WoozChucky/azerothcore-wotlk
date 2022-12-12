@@ -17,8 +17,6 @@
 
 // This is where scripts' loading functions should be declared:
 // void MyExampleScript()
-void AddSC_TestWorld_Boss();
-//void AddSC_Jarvis_Services();
 
 // The name of this function should match:
 // void Add${NameOfDirectory}Scripts()
@@ -26,6 +24,4 @@ void AddSC_TestWorld_Boss();
 void AddCustomScripts()
 {
     // MyExampleScript()
-    AddSC_TestWorld_Boss();
-    //AddSC_Jarvis_Services();
 }
